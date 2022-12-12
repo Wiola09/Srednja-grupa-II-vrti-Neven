@@ -1,4 +1,4 @@
-.zaglavlje {
+.zaglavlje, .pesma {
     width: 40%;
     text-align: center;
     margin: auto;
@@ -9,16 +9,48 @@ img{
     height: 5rem;
 }
 
-h1, h3 {
+h1, h3, h5 {
     text-align: center;
     /* width: 40%; */
+   
+}
+hr {
+    
+        border: dotted #eaf6f6 6px;
+        border-bottom: none;
+        width: 5%;
+        margin: 100px auto;
+    
+   /*  color: black; */
+    /* height: 1px; */
+}
+
+h2 {
+    text-align: center;
+    /* width: 40%; */
+    font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+
+  
 
 }
+
 body {
     background-color: aqua;
 }
 
-table, th, td {
+th, td {
     border: 1px solid black;
     margin: auto;
+  }
+
+  .spisak, .spisaku {
+    border: 1px solid black;
+    margin: auto;
+  }
+  .pesma {
+    margin: auto;
+    border: none;
+    font-family: "Montserrat", sans-serif;
   }
